@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# 🚀 AI Career Compass  
+An AI-powered web application designed to help users choose the best career paths based on their interests, skills, and goals.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 🌐 Live Links  
+### **Frontend (Vercel Deployment)**  
+https://ai-career-frontend-psi.vercel.app  
 
-In the project directory, you can run:
+### **Backend (Render Deployment)**  
+https://ai-career-backend-qwgn.onrender.com  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Project Overview  
+AI Career Compass helps users explore career pathways, receive personalized recommendations, analyze resumes using AI, and manage their profile securely.  
+The platform features full authentication, AI-based analysis, dashboards, and admin features.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔐 **Authentication & Authorization**
+- JWT-based login & signup  
+- Role-based access control (User/Admin)  
+- Secure password hashing (bcrypt)
 
-### `npm run build`
+### 👤 **User Management (CRUD)**
+- Create new accounts  
+- Read/display user information  
+- Update user profile  
+- Delete account or user (admin)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🤖 **AI Resume Analysis**
+- Users upload or paste resume text  
+- OpenAI API generates resume insights  
+- Suggests strengths, missing skills, improvements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🎯 **Career Recommendation System**
+- Suggests best-fit career paths  
+- Provides job role recommendations  
+- Suggests skill development areas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔍 **Search, Filter, Sort, Pagination**
+- Available in admin dashboard  
+- Used for user list and recommendation tables
 
-### `npm run eject`
+### 🎓 **Learning Roadmap Generator**
+- Personalized skill roadmap  
+- Courses, tools, and technologies to learn  
+- Auto-generated based on goals
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🧭 **Frontend Routing**
+- Multi-page UI  
+- Protected routes (dashboard/profile)  
+- Redirects if not logged in
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🔗 **Dynamic API Integration**
+- Real-time fetch using Axios  
+- Seamless communication with backend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### ☁️ **Hosting Infrastructure**
+- **Frontend:** Vercel  
+- **Backend:** Render/Railway  
+- **Database:** MongoDB Atlas  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🗂 Technologies Used  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Frontend**
+- React.js  
+- React Router  
+- Axios  
+- Tailwind/Custom CSS  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Backend**
+- Node.js  
+- Express.js  
+- JWT Authentication  
+- Bcrypt  
+- Mongoose (MongoDB ORM)
 
-### Code Splitting
+### **Database**
+- MongoDB Atlas (Cloud)  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
